@@ -1,0 +1,81 @@
+div{
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 60px;
+}
+p.indent{
+    padding-left: 16em;
+}
+h1.indent{
+    padding-left: 8em;
+}
+h4.indent{
+    padding-left: 16em;
+}
+h3.left{
+    text-align: left;
+}
+h3.indent{
+    padding-left: 16em;
+}
+
+
+td.thoiGian1{
+    text-align: right;
+}
+td.daiHoc{
+    text-align: left;
+    font-weight: bold;
+}
+td.congTy{
+    text-align:left;
+    font-weight: bold;
+}
+td.thoiGian2{
+    text-align: right;
+}
+td.cuaHang{
+    text-align:left;
+    font-weight: bold;
+}
+td.thoiGian3{
+    text-align: right;
+}
+td.tinhNguyen{
+    text-align:left;
+    font-weight: bold;
+}
+td.thoiGian4{
+    text-align: right;
+}
+table{
+    border-collapse: collapse;
+    width:100%;
+    border: 1px solid black;
+}
+table#t01{
+    width:100%;
+    border-style: none;
+}
+ td.trai{
+    font-weight: bold;
+    border: 1px solid black;
+    text-align: left;
+    padding: 2px;
+}
+ td.phai{
+     border: 1px solid black;
+     text-align: left;
+     padding: 2px;
+     padding-left: 1.5em;
+ }
+td.blackPoint
+{
+    border: 1px solid black;
+    text-align: left;
+    padding: 2px;
+}
+hr.blackLine{
+    border:1px solid black;
+}
