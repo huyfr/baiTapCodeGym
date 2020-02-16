@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Thực hành] Tạo form cơ bản</title>
+    <link rel="stylesheet" href="font.css">
+</head>
+<body>
+    <form action="simpleform.html" method="get">
+        <h2>Order Form</h2>
+            <p>What would you like to buy?</p>
+                <select name="ABC">
+                    <option value="A">A</option>
+                    <option value="B">B (+ 0.5$)</option>
+                    <option value="C">C (+ 0.5$)</option>
+                </select>
+
+            <p>How many would you like to order?</p>
+                <label><input type="radio" name="orders" value="1">1 - $10</label><br>
+                <label><input type="radio" name="orders" value="2">2 - $20</label><br>
+                <label><input type="radio" name="orders" value="3">3 - $30</label>
+
+            <p>Name <span style="color: red">*</span></p>
+                <input type="text" name="firstName" placeholder="First Name" value="" size="15">
+                <input type="text" name="lastName" placeholder="Last Name" value="" size="15">
+
+            <p>Email</p>
+                <input type="text" name="email" value="" size="36">
+
+            <p>Phone Number</p>
+                <input type="text" name="firstPhone" value="" size="7"> -
+                <input type="text" name="secondPhone" value="" size="7"> -
+                <input type="text" name="thirdPhone" value="" size="8">
+            <br>
+
+            <p><input type="button" name="bTSubmit" value="Submit"></p>
+
+    </form>
+</body>
+</html>
