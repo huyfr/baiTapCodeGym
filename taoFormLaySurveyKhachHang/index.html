@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Marker Research Survey</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form action="index.html" method="post">
+    <div class="borderAll">
+        <div>
+            <h3>Market Research Survey</h3>
+            <p class="font">Please take a few moments to complete this satisfaction survey.</p>
+            <hr>
+        </div>      <!--end heading-->
+        <div>
+            <h5> What is your age range?</h5>
+            <select name="age" class="dropDownSelect hovering">
+                <option value="18to24">18-24</option>
+                <option value="25to34">25-34</option>
+                <option value="35to50">35-50</option>
+                <option value="50+">50+</option>
+            </select>
+        </div>      <!--end age range-->
+        <div>
+            <h5>What is your yearly income range?</h5>
+            <select name="income" class="dropDownSelect hovering">
+                <option value="0to25">$0 - $25,000</option>
+                <option value="25to50">$25,001 - $50,000</option>
+                <option value="50to100">$50,001 - $100,000</option>
+                <option value="100+">$100,000+</option>
+            </select>
+        </div>      <!--end income range-->
+        <div>
+            <h5>Gender Identiy</h5>
+            <table>
+                <tr>
+                    <td class="labelChoice hovering"><input type="radio" name="gender" value="male">Male</td>
+                </tr>
+                <tr>
+                    <td class="labelChoice hovering"><input type="radio" name="gender" value="female">Female</td>
+                </tr>
+                <tr>
+                    <td class="labelChoice hovering"><input type="radio" name="gender" value="nonbinary">Nonbinary</td>
+                </tr>
+                <tr>
+                    <td class="labelChoice hovering"><input type="radio" name="gender" value="other">Other</td>
+                </tr>
+                <tr>
+                    <td><input class="labelText hovering" type="text" name="other" value=""></td>
+                </tr>
+            </table>
+        </div>      <!--end gender-->
+        <div>
+            <h5>Which of ther following products have your purchased in the last 2 months. Please check all that apply.</h5>
+            <table>
+                <tr>
+                    <td class="hovering"><input type="checkbox" name="product" value="Product1">Product 1</td>
+                </tr>
+                <tr>
+                    <td class="hovering"><input type="checkbox" name="product" value="Product2">Product 2</td>
+                </tr>
+                <tr>
+                    <td class="hovering"><input type="checkbox" name="product" value="Product3">Product 3</td>
+                </tr>
+            </table>
+        </div>      <!--end products-->
+        <div>
+            <h5>How often would you use our new product?</h5>
+            <table>
+                <tr>
+                    <td class="hovering"><input type="radio" name="time" value="daily">Daily</td>
+                </tr>
+                <tr>
+                    <td class="hovering"><input type="radio" name="time" value="weekly">Weekly</td>
+                </tr>
+                <tr>
+                    <td class="hovering"><input type="radio" name="time" value="monthly">Monthly</td>
+                </tr>
+            </table>
+        </div>      <!--end often use-->
+        <div>
+            <h5>What would you pay for the new product?</h5>
+            <table>
+                <tr>
+                    <td class="hovering">$ <input class="inputDollars" type="text" name="money" value=""> . <input class="inputCents type="text" name="money" value=""></td>
+                </tr>
+                <tr>
+                    <td class="textDollars">Dollars &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cents</td>
+                </tr>
+            </table>
+        </div>      <!--end money-->
+        <div>
+            <h5>What features would you like to see in the new product.</h5>
+            <input class="hovering" type="text" name="comment" value="">
+        </div>      <!--end comment-->
+        <div>
+            <p>Pleas rate your level of agreement with the following statements.</p>
+            <table class="tableColor">
+                <tr>
+                    <td class="tdColor"></td>
+                    <td class="tdColor textPadding">Strongly Disagree</td>
+                    <td class="tdColor textPadding">Disagree</td>
+                    <td class="tdColor textPadding">Agree</td>
+                    <td class="tdColor textPadding">Strongly Agree</td>
+                </tr>
+                <tr>
+                    <td>Our products are priced fairly.</td>
+                    <td class="radioAlign"><input type="radio" name="choose1" value=""><br>1</td>
+                    <td class="radioAlign"><input type="radio" name="choose1" value=""><br>2</td>
+                    <td class="radioAlign"><input type="radio" name="choose1" value=""><br>3</td>
+                    <td class="radioAlign"><input type="radio" name="choose1" value=""><br>4</td>
+                </tr>
+                <tr>
+                    <td class="tdColor">Our products are high quality.</td>
+                    <td class="tdColor radioAlign"><input type="radio" name="choose2" value=""><br>1</td>
+                    <td class="tdColor radioAlign"><input type="radio" name="choose2" value=""><br>2</td>
+                    <td class="tdColor radioAlign"><input type="radio" name="choose2" value=""><br>3</td>
+                    <td class="tdColor radioAlign"><input type="radio" name="choose2" value=""><br>4</td>
+                </tr>
+                <tr>
+                    <td>Your would recommend our product to a friend or coworker.</td>
+                    <td class="radioAlign"><input type="radio" name="choose3" value=""><br>1</td>
+                    <td class="radioAlign"><input type="radio" name="choose3" value=""><br>2</td>
+                    <td class="radioAlign"><input type="radio" name="choose3" value=""><br>3</td>
+                    <td class="radioAlign"><input type="radio" name="choose3" value=""><br>4</td>
+                </tr>
+            </table>
+        </div>      <!--end level agreement-->
+        <div>
+            <br>
+            <input type="submit" value="Submit">
+        </div>
+    </div>
+    </form>
+</body>
+</html>

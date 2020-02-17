@@ -1,0 +1,46 @@
+.borderAll {
+    font-family: "Lucida Grande", Tahoma, Arial, sans-serif;
+}
+.font {
+    color: gray;
+    font-size: small;
+}
+.dropDownSelect {
+    width: 50%;
+    margin: 0 0 1px 0;
+    font-size: 120%;
+}
+.labelChoice {
+    padding: 0 0 5px 0;
+}
+.labelText {
+    margin-left: 17px;
+    padding: 0 0 5px 0;
+}
+.inputDollars {
+    width: 80px;
+}
+.inputCents {
+    width: 20px;
+}
+.textDollars {
+    padding-left: 13px;
+}
+.tableColor {
+    border: 1px solid gray;
+}
+.tdColor {
+    background-color: gray;
+}
+.textPadding {
+    padding: 15px 15px 15px 15px;
+}
+.radioAlign {
+    text-align: center;
+}
+.hovering {
+    background-color: unset;
+}
+.hovering:hover {
+    background-color: lemonchiffon;
+}
