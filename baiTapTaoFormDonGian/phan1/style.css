@@ -1,0 +1,43 @@
+
+.borderAll{
+    font-family: Arial, Helvetica, sans-serif;;
+    width: 600px;
+    border: aquamarine 10px solid;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+}
+.titleForm h2 {
+    text-align: center;
+    color: white;
+    background-color: tomato;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.bodyInput table {
+    width: 100%;
+}
+.nameInput {
+    text-align: right;
+    padding-bottom: 5px;
+    color: blue;
+}
+.textInputName {
+    width: 50%;
+    padding-bottom: 5px;
+}
+.textInputEmail {
+    width: 40%;
+    padding-bottom: 5px;
+}
+.tableCheckBox {
+    margin-left: 125px;
+    padding-top: 5px;
+}
+.tableButton {
+    margin-left: 185px;
+    margin-top: 5px;
+}
+.colorTextCheckbox {
+    color: tomato;
+}

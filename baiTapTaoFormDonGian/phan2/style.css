@@ -1,0 +1,50 @@
+.borderAll {
+    font-family: Arial, Helvetica, sans-serif;;
+    width: 600px;
+    background-color: lemonchiffon;
+    border: lemonchiffon 1px solid;
+    background-color: lemonchiffon;
+    border-width: thin;
+
+}
+.title h2 {
+    color: blue;
+    background-color:aquamarine;
+    width: 98%;
+    margin-left: 6px;
+    margin-top: 5px;
+}
+.allTextLeft {
+    margin-left: 10px;
+}
+.nameInput {
+    margin-left: 50px;
+    width: 100%;
+}
+.DOBInput {
+    margin-left: 48px;
+    width: 70%;
+}
+.radio {
+    padding-left: 60px;
+}
+.addressInput {
+    margin-left: 70px;
+    width:80%;
+    height: 60px;
+}
+.grade {
+    margin-left: 92px;
+}
+.emailInput {
+    margin-left: 78px;
+    width: 150px;
+}
+.phoneNumberInput {
+    margin-left: 46px;
+    width: 150px;
+}
+.marginButtons {
+    margin-left: 132px;
+    padding-bottom: 5px ;
+}
