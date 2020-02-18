@@ -1,0 +1,30 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+td {
+    padding: 20px;
+    border: 1px solid black;
+}
+td {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #5f6062;
+    padding: 20px 20px 20px 20px;
+    border-bottom: 1px solid #e0e0e0;
+    text-align: center;
+}
+.hover {
+    background: red;
+}
+.backgroudColor{
+    font-family: 'Patua One', cursive;
+    font-size:16px;
+    font-weight:400;
+    color:#fff;
+    text-align:center;
+    padding:20px;
+    background-color: #d61b06;
+    border-color: white;
+}
