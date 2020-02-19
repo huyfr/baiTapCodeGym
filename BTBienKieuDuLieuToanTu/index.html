@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai tap Bien, Kieu du lieu va Toan tu</title>
+    <script language="JavaScript" src="action.js"></script>
+</head>
+<body>
+    <!--Bai1-->
+    <p>Bai 1: Tinh tong diem va diem trung binh.</p>
+    <table>
+        <tr>
+            <td><input type="text" id="VL" placeholder="Vat ly" value=""></td>
+        </tr>
+        <tr>
+            <td><input type="text" id="HH" placeholder="Hoa hoc" value=""></td>
+        </tr>
+        <tr>
+            <td><input type="text" id="SH" placeholder="Sinh hoc" value=""></td>
+        </tr>
+        <tr>
+            <td><button type="button" onclick="tongDiem();">Tinh tong diem</button></td>
+            <td><input type="text" id="tong" value=""></td>
+        </tr>
+        <tr>
+            <td><button type="button" onclick="tbc();">Tinh diem trung binh</button></td>
+            <td><input type="text" id="tbc"></td>
+        </tr>
+    </table>
+    <!--end bai1-->
+
+    <!--bai2-->
+    <p>Bai 2: Doi do C sang do F.</p>
+    <table>
+        <tr>
+            <td><input type="text" id="doC" placeholder="&deg;C" value=""></td>
+            <td><input type="text" id="doF" placeholder="&deg;F" value=""></td>
+            <td><button type="button" id="convert" onclick="convertTemperature();">Convert</button></td>
+        </tr>
+    </table>
+    <!--end bai2-->
+
+    <!--bai3-->
+    <p>Bai 3+4: Tinh dien tich, chu vi hinh tron.</p>
+    <p>Tinh theo D (Duong kinh)</p>
+    <table>
+        <tr>
+            <td><input type="text" id="duongKinh" placeholder="Nhap duong kinh" value=""></td>
+        </tr>
+        <tr>
+            <td><button type="button" onclick="tinhDienTichTheoD();">Tinh dien tich</button></td>
+            <td><input type="text" id="ketQuaDienTichD" value=""></td>
+        </tr>
+        <tr>
+            <td><button type="button" onclick="tinhChuViTheoD();">Tinh chu vi</button></td>
+            <td><input type="text" id="ketQuaChuViD" value=""></td>
+        </tr>
+    </table>
+
+    <p>Tinh theo R (Ban kinh)</p>
+    <table>
+        <tr>
+            <td><input type="text" id="banKinh" placeholder="Nhap ban kinh" value=""></td>
+        </tr>
+        <tr>
+            <td><button type="button" onclick="tinhDienTichTheoR();">Tinh dien tich</button></td>
+            <td><input type="text" id="ketQuaDienTichR" value=""></td>
+        </tr>
+        <tr>
+            <td><button type="button" onclick="tinhChuViTheoR();">Tinh chu vi</button></td>
+            <td><input type="text" id="ketQuaChuViR" value=""></td>
+        </tr>
+    </table>
+
+
+</body>
+</html>
