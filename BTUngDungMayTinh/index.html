@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="action.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="title">
+        <h2>Caculator</h2>
+    </div>
+    <div class="">
+        <table>
+            <tr>
+                <td colspan="7" id="first"><input type="text" class="sizeInput" id="inputNumber" value=""></td>
+            </tr>
+            <tr>
+                <td><button type="button" id="rad" onclick="errorButton(1);">Rad</button></td>
+                <td><button type="button" id="none" onclick="errorButton(7)"></button></td>
+                <td><button type="button" id="factorial" onclick="errorButton(2)">x!</button></td>
+                <td><button type="button" id="openBrackets" onclick="input('(')">(</button></td>
+                <td><button type="button" id="cloesBrackets" onclick="input(')')">)</button></td>
+                <td><button type="button" id="percent " onclick="percentButton();">%</button></td>
+                <td><button type="button" id="ac" onclick="cleanNumber();">AC</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" id="inv" onclick="errorButton(3)">Inv</button></td>
+                <td><button type="button" id="sin" onclick="sinButton();">Sin</button></td>
+                <td><button type="button" id="ln" onclick="">ln</button></td>
+                <td><button type="button" id="7" onclick="input(7);">7</button></td>
+                <td><button type="button" id="8" onclick="input(8);">8</button></td>
+                <td><button type="button" id="9" onclick="input(9);">9</button></td>
+                <td><button type="button" id="division" onclick="input('/');">/</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" id="e" onclick="input(Math.E);">e</button></td>
+                <td><button type="button" id="tan" onclick="tanButton();">tan</button></td>
+                <td><button type="button" id="squareRoot" onclick="sqrtButton();">&radic;</button></td>
+                <td><button type="button" id="4" onclick="input(4);">4</button></td>
+                <td><button type="button" id="5" onclick="input(5);">5</button></td>
+                <td><button type="button" id="6" onclick="input(6);">6</button></td>
+                <td><button type="button" id="multiplication" onclick="input('*');">X</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" id="pi" onclick="input(Math.PI);">&pi;</button></td>
+                <td><button type="button" id="cos" onclick="cosButton();">Cos</button></td>
+                <td><button type="button" id="log" onclick="logButton();">log</button></td>
+                <td><button type="button" id="1" onclick="input(1);">1</button></td>
+                <td><button type="button" id="2" onclick="input(2);">2</button></td>
+                <td><button type="button" id="3" onclick="input(3);">3</button></td>
+                <td><button type="button" id="subtraction" onclick="input('-');">&mdash;</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" id="ans" onclick="errorButton(4);">ANS</button></td>
+                <td><button type="button" id="exp" onclick="errorButton(5);">EXP</button></td>
+                <td><button type="button" id="caret" onclick="errorButton(6);">x<sup>y</sup></button></td>
+                <td><button type="button" id="0" onclick="input(0);">0</button></td>
+                <td><button type="button" id="dot" onclick="input('.');">.</button></td>
+                <td><button type="button" id="equal" onclick="equalButton();">=</button></td>
+                <td><button type="button" id="addition" onclick="input('+');">+</button></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
