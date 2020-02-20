@@ -25,29 +25,18 @@
         // end su dung if else
 
         // su dung switch case
-        if (inputNumber > 0)
+        switch (Math.sign(inputNumber))
         {
-            switch (inputNumber)
-            {
-                case inputNumber:
-                    alert(1);
-                    break;
-            }
-        }
-        else
-            if (inputNumber < 0)
-            {
-                switch (inputNumber)
-                {
-                    case inputNumber:
-                        alert(-1);
-                        break;
-                }
-            }
-            else
-            {
+            case 1:
+                alert(1);
+                break;
+            case -1:
                 alert(0);
-            }
+                break;
+            default:
+                alert(0);
+                break;
+        }
         // end su dung switch case
     </script>
 </body>
