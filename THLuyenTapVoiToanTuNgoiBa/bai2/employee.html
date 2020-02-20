@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thuc hanh luyen tap voi toan tu ngoi ba - Bai 2</title>
+</head>
+<body>
+    <script>
+        let login = prompt("Nhap chuc vu");
+
+        let message = (login === 'Employee') ?
+            'Hello' :
+            (login === 'Director') ?
+                'Greetings' :
+                (login === '') ?
+                    'No login' :
+                    '';
+
+        alert(message);
+    </script>
+</body>
+</html>
