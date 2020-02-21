@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai tap tinh chi so can nang co the</title>
+    <link rel="stylesheet" href="styleBMI.css">
+    <script src="executeBMI.js"></script>
+</head>
+<body>
+    <div class="input">
+        <table>
+            <tr>
+                <td>Nhap chieu cao cua ban</td>
+            </tr>
+            <tr>
+                <td><input type="number" id="height" class="sizePlacehoder" value="" placeholder="Tinh theo cm"></td>
+            </tr>
+            <tr>
+                <td>Nhap can nang cua ban</td>
+            </tr>
+            <tr>
+                <td><input type="number" id="weight" class="sizePlacehoder" value="" placeholder="Tinh theo kg"></td>
+            </tr>
+        </table>
+    </div>
+    <div class="button">
+        <table>
+            <tr>
+                <td><button type="button" id="check" class="checkButtonColor" onclick="executeBMI()">XEM</button></td>
+                <td><button type="button" id="clear" class="clearButtonColor" onclick="clearInput()">XOA</button></td>
+            </tr>
+        </table>
+    </div>
+    <div class="result">
+        <table>
+            <tr>
+                <td>Ket qua BMI cua ban:</td>
+            </tr>
+            <tr>
+                <td><input type="text" id="resultBMI" class="sizePlacehoder" value=""></td>
+            </tr>
+            <tr>
+                <td>Nhan xet BMI cua ban:</td>
+            </tr>
+            <tr>
+                <td><input type="text" id="commentBMI" class="sizePlacehoder" value=""></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
